@@ -11,19 +11,30 @@ public class LjLoginPage extends BasePage{
 	public LjLoginPage(WebDriver driver) {
 		super(driver);
 	}
-	//登录账户
-	@FindBy (id="txtLoginName")
-	WebElement loginname;
-	//登录密码
-	@FindBy (id="txtPassword")
-	WebElement loginpwd;
-	//登录按钮
-	@FindBy (xpath=".//button[@class='sure']")
-	WebElement loginbutton;
 	
-	public void login(String username,String password){
-		type(loginname, "username");
-		type(loginname, "password");
-		click(loginbutton);
+	//信息披露中检验条件
+	@FindBy (xpath="/html/body/div[2]/div[1]/div/div/ul[1]/li[1]/span")
+	WebElement Platform;
+
+	//信息披露中公司简介
+	@FindBy (linkText="公司简介")
+	WebElement ComProfile;
+	
+	//信息披露中荣誉资质
+	@FindBy (linkText="荣誉资质")
+	WebElement Honors;
+	
+	public String gettext(){
+		return Platform.getText();
 	}
+		
+	public void clickComProfile(){
+		click(ComProfile);
+	}
+	
+	public void clickHonors(){
+		click(Honors);
+	}
+	
+	
 }

@@ -1,0 +1,1 @@
+作为基类只包含一个driver成员变量，它用来标记Selenium中的WebDriver
