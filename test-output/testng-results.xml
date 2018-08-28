@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28478" started-at="2018-08-28T03:03:27Z" finished-at="2018-08-28T03:03:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28478" started-at="2018-08-28T03:03:27Z" finished-at="2018-08-28T03:03:55Z">
+      <class name="com.Ljd.Ljduitest.testcase.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@3a8624]" name="setUp" is-config="true" duration-ms="10535" started-at="2018-08-28T11:03:27Z" finished-at="2018-08-28T11:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@3a8624]" name="Login" duration-ms="15540" started-at="2018-08-28T11:03:38Z" finished-at="2018-08-28T11:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@3a8624]" name="tearDown" is-config="true" duration-ms="2348" started-at="2018-08-28T11:03:53Z" finished-at="2018-08-28T11:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Ljd.Ljduitest.testcase.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

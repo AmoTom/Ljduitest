@@ -1,0 +1,32 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+Suite相关设置，这里paraller是执行的模式，有tests classes methods三种取值，thread-count表示两个线程执行用例
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test">
+      <parameter name="Browser" value="Firefox" />
+      <classes>
+      		<class name="pers.szw.ljdtest.testcase.TestCrossBrowser"/>
+      </classes>
+  </test> 
+  
+  <test name="Test1">
+      <parameter name="Browser" value="chrome" />
+      <classes>
+      		<class name="pers.szw.ljdtest.testcase.TestCrossBrowser"/>
+      </classes>
+  </test> 
+  
+    <test name="Test">
+      <classes>
+      		<class name="pers.szw.ljdtest.testcase.TestCheckGoodsPrice/>
+      </classes>
+  </test> 
+</suite>  -->
+
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="pers.szw.ljdtest.testcase.TestCheckGoodsPrice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
