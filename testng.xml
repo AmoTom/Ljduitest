@@ -26,7 +26,7 @@ Suite相关设置，这里paraller是执行的模式，有tests classes methods�
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="pers.szw.ljdtest.testcase.TestCheckGoodsPrice"/>
+      <class name="com.Ljd.ljdtest.testcase.TestLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
