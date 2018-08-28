@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15521" started-at="2018-08-28T09:06:42Z" finished-at="2018-08-28T09:06:57Z">
+  <suite name="Default suite" duration-ms="15448" started-at="2018-08-28T09:37:30Z" finished-at="2018-08-28T09:37:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15521" started-at="2018-08-28T09:06:42Z" finished-at="2018-08-28T09:06:57Z">
+    <test name="Default test" duration-ms="15448" started-at="2018-08-28T09:37:30Z" finished-at="2018-08-28T09:37:45Z">
       <class name="com.Ljd.Ljduitest.testcase.TestLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@3a8624]" name="setUp" is-config="true" duration-ms="5633" started-at="2018-08-28T17:06:42Z" finished-at="2018-08-28T17:06:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@101b7af]" name="setUp" is-config="true" duration-ms="5651" started-at="2018-08-28T17:37:30Z" finished-at="2018-08-28T17:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@3a8624]" name="Login" duration-ms="7530" started-at="2018-08-28T17:06:47Z" finished-at="2018-08-28T17:06:55Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@101b7af]" name="Login" duration-ms="7671" started-at="2018-08-28T17:37:35Z" finished-at="2018-08-28T17:37:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@3a8624]" name="tearDown" is-config="true" duration-ms="2331" started-at="2018-08-28T17:06:55Z" finished-at="2018-08-28T17:06:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Ljd.Ljduitest.testcase.TestLogin@101b7af]" name="tearDown" is-config="true" duration-ms="2103" started-at="2018-08-28T17:37:43Z" finished-at="2018-08-28T17:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
