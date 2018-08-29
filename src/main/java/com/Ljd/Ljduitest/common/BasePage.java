@@ -15,6 +15,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import com.Ljd.Ljduitest.common.LogType.LogTypeName;
 import com.google.common.io.Files;
@@ -34,7 +35,7 @@ public class BasePage {
 		try{
 			if(element.isEnabled()){
 				element.clear();
-				Logger.Output(LogTypeName.INFO, "清空输入框。");
+				Logger.Output(LogTypeName.INFO, "清空输入框...");
 				element.sendKeys(text);
 				Logger.Output(LogTypeName.INFO, "输入文本数据:"+text);
 			}
@@ -48,7 +49,7 @@ public class BasePage {
 		try {
 				if (element.isEnabled()) {
 						element.click();
-						Logger.Output(LogType.LogTypeName.INFO, "Element: "+element.toString()+" was clicked.");
+						Logger.Output(LogType.LogTypeName.INFO,"点击页面元素:"+element);
 					}
 				} catch (Exception e) {
 						Logger.Output(LogType.LogTypeName.ERROR, e.getMessage()+".");
@@ -60,18 +61,31 @@ public class BasePage {
 		try {
 				if (element.isEnabled()) {
 					element.clear();
-					Logger.Output(LogType.LogTypeName.INFO, "Element "+element.toString()+" was cleaned.");
+					Logger.Output(LogType.LogTypeName.INFO,"清空当前文本框...");
 				}
 			} catch (Exception e) {
 				Logger.Output(LogType.LogTypeName.ERROR, e.getMessage()+".");
 			}
 		}
-
+	
+	//相应断言方法
+	public void assertEquals (String textone,String texttwo){
+		try{
+			if(textone.equals(texttwo)){
+				Logger.Output(LogType.LogTypeName.INFO,texttwo+",数据验证通过");
+			} else {
+				Logger.Output(LogType.LogTypeName.ERROR,texttwo+",当前文字或URL不正确");
+			}
+		} catch (Exception e){
+			Logger.Output(LogType.LogTypeName.ERROR, e.getMessage()+".");
+		}
+	}
+	
      //判断一个页面元素是否显示在当前页面
 	protected void verifyElementIsPresent(WebElement element){
 	    try {
 				if (element.isDisplayed()) {
-					Logger.Output(LogType.LogTypeName.INFO, "This Element " + element.toString().trim()+" is present.");
+					Logger.Output(LogType.LogTypeName.INFO,element+"元素在当前页面显示.");
 				}
 			} catch (Exception e) {
 				Logger.Output(LogType.LogTypeName.ERROR, e.getMessage()+".");
@@ -81,14 +95,14 @@ public class BasePage {
 	// 获取页面的标题
 	public String getCurrentPageTitle(){
 	    pageTitle=driver.getTitle();
-	    Logger.Output(LogType.LogTypeName.INFO, "Current page title is "+pageTitle);
+	    Logger.Output(LogType.LogTypeName.INFO, "当前页面Title:"+pageTitle);
 	    return pageTitle;
 	   }
 
      //获取页面的url
 	public String getCurrentPageUrl(){
 	    pageUrl=driver.getCurrentUrl();
-	    Logger.Output(LogType.LogTypeName.INFO, "Current page title is "+pageUrl);
+	    Logger.Output(LogType.LogTypeName.INFO, "当前页面Url:"+pageUrl);
 	    return pageUrl;
 	   }
     
@@ -105,9 +119,9 @@ public class BasePage {
           try {  
         	  driver.close();// 关闭旧窗口
               WebDriver window = driver.switchTo().window(it.next());// 切换到新窗口 
-              Logger.Output(LogType.LogTypeName.INFO, "new page title is "+ window.getTitle());
+              Logger.Output(LogType.LogTypeName.INFO, "切换到新打开窗口"+ window.getTitle());
             } catch (Exception e) {  
-          	  Logger.Output(LogType.LogTypeName.ERROR,"法切换到新打开窗口"+ e.getMessage());  
+          	  Logger.Output(LogType.LogTypeName.ERROR,"切换到新打开窗口"+ e.getMessage());  
           }  
           //driver.close();//关闭当前焦点所在的窗口  
       }  

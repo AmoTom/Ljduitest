@@ -40,17 +40,17 @@ public class BrowserEngine {
 			System.setProperty("webdriver.gecko.driver", ".\\Tools\\geckodriver.exe");	
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
-			Logger.Output(LogType.LogTypeName.INFO, "Launching Firefox ...");
+			Logger.Output(LogType.LogTypeName.INFO, "Loading and opening Firefox ...");
 		}else if(browserName.equalsIgnoreCase("Chrome")){
 			System.setProperty("webdriver.chrome.driver", ".\\Tools\\chromedriver.exe");
 			driver= new ChromeDriver();
 			driver.manage().window().maximize();
-			Logger.Output(LogType.LogTypeName.INFO, "Launching Chrome ...");
+			Logger.Output(LogType.LogTypeName.INFO, "Loading and opening Chrome ...");
 		}else if(browserName.equalsIgnoreCase("IE")){
 			System.setProperty("webdriver.ie.driver", ".\\Tools\\IEDriverServer.exe");
 			driver= new InternetExplorerDriver();
 			driver.manage().window().maximize();
-			Logger.Output(LogType.LogTypeName.INFO, "Launching IE ...");
+			Logger.Output(LogType.LogTypeName.INFO, "Loading and opening IE ...");
 		}
 		driver.get(serverURL);
 		Logger.Output(LogType.LogTypeName.INFO, "Open URL: "+ serverURL);
