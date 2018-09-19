@@ -1,0 +1,21 @@
+2018-09-04 15:16:20 INFO: Start to select browser name from properties file
+2018-09-04 15:16:20 INFO: Your had select test browser type is: Chrome
+2018-09-04 15:16:20 INFO: The test server URL is: https://www.longjubank.com
+2018-09-04 15:16:28 INFO: Loading and opening Chrome ...
+2018-09-04 15:16:29 INFO: Open URL: https://www.longjubank.com
+2018-09-04 15:16:29 INFO: Wait for 5 seconds.
+2018-09-04 15:16:29 INFO: 进入龙驹带首页...
+2018-09-04 15:16:29 ERROR: 测试两个字符是否相同 expected [欢迎来到龙驹贷] but found [欢迎来到龙驹贷！].
+2018-09-04 15:16:29 INFO: [[ChromeDriver: chrome on XP (b35e9047ba9ee0eee5d85986527b17b0)] -> xpath: /html/body/div[2]/ul/li[2]/a]元素在当前页面显示.
+2018-09-04 15:16:35 INFO: 点击页面元素:Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/ul/li[2]/a'
+2018-09-04 15:16:35 INFO: 进入信息披露页面...
+2018-09-04 15:16:35 INFO: 当前页面Url:https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html
+2018-09-04 15:16:35 INFO: https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html,数据验证通过
+2018-09-04 15:16:37 INFO: 点击页面元素:[[ChromeDriver: chrome on XP (b35e9047ba9ee0eee5d85986527b17b0)] -> link text: 荣誉资质]
+2018-09-04 15:16:37 INFO: 进入荣誉资质并验证是否正确
+2018-09-04 15:16:37 INFO: 当前页面Url:https://stat.longjubank.com/html/Information/platformInfor/honor.html
+2018-09-04 15:16:37 INFO: https://stat.longjubank.com/html/Information/platformInfor/honor.html,数据验证通过
+2018-09-04 15:16:37 INFO: 点击页面元素:[[ChromeDriver: chrome on XP (b35e9047ba9ee0eee5d85986527b17b0)] -> link text: 公司简介]
+2018-09-04 15:16:37 INFO: 进入公司简介并验证是否正确
+2018-09-04 15:16:37 INFO: 当前页面Url:https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html
+2018-09-04 15:16:37 INFO: https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html,数据验证通过

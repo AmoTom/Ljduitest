@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -57,12 +58,6 @@ public class BrowserEngine {
 		callWait(5);
 		return driver;
 	}
-
-	private WebDriver firefoxDriver() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	/*
 	 * 关闭浏览器并退出方法
 	 */

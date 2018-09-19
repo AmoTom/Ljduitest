@@ -1,0 +1,20 @@
+2018-09-03 18:07:49 INFO: Start to select browser name from properties file
+2018-09-03 18:07:49 INFO: Your had select test browser type is: Chrome
+2018-09-03 18:07:49 INFO: The test server URL is: https://www.longjubank.com
+2018-09-03 18:07:53 INFO: Loading and opening Chrome ...
+2018-09-03 18:07:55 INFO: Open URL: https://www.longjubank.com
+2018-09-03 18:07:55 INFO: Wait for 5 seconds.
+2018-09-03 18:07:55 INFO: 进入龙驹带首页...
+2018-09-03 18:07:55 INFO: [[ChromeDriver: chrome on XP (b4c0f2a568bf1032c73ae3750b201d4e)] -> xpath: /html/body/div[2]/ul/li[2]/a]元素在当前页面显示.
+2018-09-03 18:08:01 INFO: 点击页面元素:Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/ul/li[2]/a'
+2018-09-03 18:08:01 INFO: 进入信息披露页面...
+2018-09-03 18:08:01 INFO: 当前页面Url:https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html
+2018-09-03 18:08:01 INFO: https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html,数据验证通过
+2018-09-03 18:08:02 INFO: 点击页面元素:[[ChromeDriver: chrome on XP (b4c0f2a568bf1032c73ae3750b201d4e)] -> link text: 荣誉资质]
+2018-09-03 18:08:02 INFO: 进入荣誉资质并验证是否正确
+2018-09-03 18:08:02 INFO: 当前页面Url:https://stat.longjubank.com/html/Information/platformInfor/honor.html
+2018-09-03 18:08:02 INFO: https://stat.longjubank.com/html/Information/platformInfor/honor.html,数据验证通过
+2018-09-03 18:08:03 INFO: 点击页面元素:[[ChromeDriver: chrome on XP (b4c0f2a568bf1032c73ae3750b201d4e)] -> link text: 公司简介]
+2018-09-03 18:08:03 INFO: 进入公司简介并验证是否正确
+2018-09-03 18:08:03 INFO: 当前页面Url:https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html
+2018-09-03 18:08:03 INFO: https://stat.longjubank.com/html/Information/platformInfor/CompanyIntro.html,数据验证通过

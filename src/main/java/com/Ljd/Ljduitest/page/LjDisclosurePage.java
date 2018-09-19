@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 import com.Ljd.Ljduitest.common.BasePage;
 
-public class LjLoginPage extends BasePage{
+public class LjDisclosurePage extends BasePage{
 
-	public LjLoginPage(WebDriver driver) {
+	public LjDisclosurePage(WebDriver driver) {
 		super(driver);
 	}
 	

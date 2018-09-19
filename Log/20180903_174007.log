@@ -1,0 +1,10 @@
+2018-09-03 17:40:07 INFO: Start to select browser name from properties file
+2018-09-03 17:40:07 INFO: Your had select test browser type is: Chrome
+2018-09-03 17:40:07 INFO: The test server URL is: https://www.longjubank.com
+2018-09-03 17:40:11 INFO: Loading and opening Chrome ...
+2018-09-03 17:40:13 INFO: Open URL: https://www.longjubank.com
+2018-09-03 17:40:13 INFO: Wait for 5 seconds.
+2018-09-03 17:40:18 INFO: 进入龙驹带首页...
+2018-09-03 17:40:18 INFO: [[ChromeDriver: chrome on XP (fdd6c8dcc50d85f1eac152ed633dc963)] -> xpath: /html/body/div[2]/ul/li[2]/a]元素在当前页面显示.
+2018-09-03 17:40:24 INFO: 点击页面元素:Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/ul/li[2]/a'
+2018-09-03 17:40:24 INFO: 进入信息披露页面...

@@ -1,0 +1,7 @@
+2018-09-03 17:35:07 INFO: Start to select browser name from properties file
+2018-09-03 17:35:07 INFO: Your had select test browser type is: Chrome
+2018-09-03 17:35:07 INFO: The test server URL is: https://www.longjubank.com
+2018-09-03 17:35:11 INFO: Loading and opening Chrome ...
+2018-09-03 17:35:13 INFO: Open URL: https://www.longjubank.com
+2018-09-03 17:35:13 INFO: Wait for 5 seconds.
+2018-09-03 17:35:18 INFO: 进入龙驹带首页...

@@ -15,6 +15,12 @@ public class LjHomePage extends BasePage{
 	@FindBy (xpath = "/html/body/div[2]/ul/li[2]/a")
 	WebElement information;
 	
+	@FindBy (xpath = "//a[@href = '#/register']")
+	WebElement register;
+	
+	@FindBy (xpath = "//a[@href = '#/login']")
+	WebElement login;
+	
 	public LjHomePage(WebDriver driver) {
 		super(driver);
 	}
@@ -24,9 +30,21 @@ public class LjHomePage extends BasePage{
 	}
 	
 	//首页点击信息披露按钮跳转
-	public LjLoginPage clickLoginButton(){
+	public LjDisclosurePage clickDisclosureButton(){
 		verifyElementIsPresent(information);
 		click(information);
-		return new LjLoginPage(driver);
+		return new LjDisclosurePage(driver);
+	}
+	
+	//点击首页登录按钮
+	public LjDisclosurePage clicklogin(){
+		click(login);
+		return new LjDisclosurePage(driver);
+	}
+	
+	//点击注册按钮
+	public LjDisclosurePage clickregister(){
+		click(register);
+		return new LjDisclosurePage(driver);
 	}
 }
